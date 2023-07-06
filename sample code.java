@@ -1,4 +1,5 @@
-public class Factorial {
+gfjyutyjhftftfht
+    public class Factorial {
     public static void main(String[] args) {
         int number = 5; // The number for which factorial is to be calculated
         long factorial = calculateFactorial(number);
