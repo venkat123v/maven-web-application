@@ -3,7 +3,7 @@ function calculateFactorial(number) {
     return 1;
   } else {
     let factorial = 1;
-    for (let i = 2; i <= number; i++) {
+    for (let i = 3; i <= number; i++) {
       factorial *= i;
     }
     return factorial;
@@ -11,6 +11,6 @@ function calculateFactorial(number) {
 }
 
 // Example usage
-const number = 5;
+const number = 6;
 const result = calculateFactorial(number);
 console.log(`The factorial of ${number} is ${result}.`);
